@@ -2,7 +2,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters
 from handlers.text_handler import handle_text
 from handlers.voice_handler import handle_voice
 
-TOKEN = "توکن_ربات_تلگرام_شما"
+TOKEN = "8266782644:AAFT1xYinsplKoew2JTscg7msa3-XuZ9QLg"
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
