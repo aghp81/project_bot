@@ -1,0 +1,25 @@
+pip install python-telegram-bot --upgrade
+pip install SpeechRecognition pydub
+روی ویندوز باید ffmpeg نصب باشه تا pydub بتونه فایل‌های OGG رو به WAV تبدیل کنه.
+pip install dateparser
+
+
+
+مراحل راه‌اندازی Google Calendar API
+1️⃣ فعال‌سازی API و ساخت credentials
+وارد Google Cloud Console شو.
+
+یک پروژه جدید بساز (Create Project).
+
+در منوی APIs & Services → Library برو و Google Calendar API رو فعال کن.
+
+برو به APIs & Services → Credentials و:
+
+روی Create Credentials → OAuth client ID کلیک کن.
+
+Application type رو روی Desktop app بگذار.
+
+فایل credentials.json رو دانلود کن و داخل پوشه credentials/ پروژه‌ت قرار بده.
+
+
+pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
